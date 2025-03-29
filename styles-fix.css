@@ -1,0 +1,22 @@
+/* Reset shop-logo padding that was added previously */
+.shop-logo {
+    padding-top: 0 !important; /* Override previous rule */
+    margin-top: 8px !important; /* Оптимизированное значение отступа сверху */
+}
+
+/* Аналогично смещаем иконку поиска */
+.shop-actions {
+    margin-top: 8px !important; /* Оптимизированное значение отступа сверху */
+}
+
+/* Исправленный header для мокапа */
+.shop-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important; /* Выравниваем элементы по верхнему краю */
+    padding: 16px !important; /* Стандартные отступы */
+    background: var(--dark-gray) !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+    height: 70px !important; /* Высота увеличена от стандартной */
+} 
