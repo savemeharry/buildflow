@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Fallback</title>
+  </head>
+  <body>
+    <!-- A little netlify form trick: this hidden form is used to ensure Netlify properly detects the form -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html> 

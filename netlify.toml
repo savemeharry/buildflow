@@ -1,0 +1,17 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/success"
+  to = "/success.html"
+  status = 302
+
+[[redirects]]
+  from = "/success.html"
+  to = "/success.html"
+  status = 200
+
+[forms]
+  [forms.contact]
+    name = "contact"
+    success_url = "/success.html" 
